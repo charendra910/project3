@@ -49,6 +49,7 @@ class Home_Screen extends StatefulWidget {
 }
 
 class _Home_ScreenState extends State<Home_Screen> {
+  
   String selectedFruit = 'apple';
   String selectedBranch = 'CE';
   bool agreedToTerms = false; // New variable to track terms agreement
